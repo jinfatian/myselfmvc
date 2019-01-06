@@ -1,4 +1,4 @@
-# MyMVCFramework
+# myselfmvc
 
 基于Composer的轻量级PHP应用框架
 =======================================

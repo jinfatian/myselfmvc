@@ -12,7 +12,7 @@
 
 基本使用
 ---------------------------------
- 1. composer create-project lookphp/MyMVCFramework  MyMVCFramework
+ 1. composer create-project jinfatian/myselfmvc  myselfmvc
  2. 编辑 Apache下的httpd-vhost.conf文件，添加如下内容：
  
  **注意以下的目录改成自己对应的本地目录！**
@@ -50,7 +50,7 @@
 4. 在MySQL中创建一个数据库myselfmvc，用户名：xxx， 密码：xxxxxx。
 当然了，如果本地已经有能用的数据库，那么可以去修改config/base.php中的配置即可。
 
- **注意：MyMVCFramework这个用户需要有全部的数据库操作权限！**
+ **注意：这个用户需要有全部的数据库操作权限！**
  
 5. 访问：http://my.mvc.com/home/migrate 执行初始化，生成todo数据表。
 6. 访问：http://my.mvc.com/todo/index  可以执行CRUD的各种操作。
@@ -58,7 +58,7 @@
  
 补充
 ---------------------------------
-1. 系统自带默认路由，一般情况不需要去配置路由，自定义路由请查看config目录下的routes.php的示例。
+1. 系统自带默认路由，一般情况不需要去配置路由，自定义路由请查看web目录下的base.php的示例。
  配置参考 <http://www.slimframework.com/docs/v3/tutorial/first-app.html>
 2. 模版引擎参考 <https://latte.nette.org/>
 3. ORM的使用参考 <https://github.com/lox/pheasant>

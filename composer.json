@@ -1,13 +1,10 @@
 {
-    "require": {
-        "altorouter/altorouter": "^1.2",
-        "latte/latte": "^2.4",
-        "lox/pheasant": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "app\\": "app/"
+    "name": "wangjin/myselfmvc",
+    "authors": [
+        {
+            "name": "wangjin",
+            "email": "wangjin@iyoo.top"
         }
-    },
-    "minimum-stability": "dev"
+    ],
+    "require": {}
 }
